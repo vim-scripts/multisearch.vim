@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2826
+
+I routinely need to examine log files from production, and found the need to highlight and search multiple terms during the process. I took ideas from such scripts such as Highlighter.vim, MultipleSearch.vim and MultipleSearch2.vim and created a script to help me with the above task. In April, 2008, I rewrote the script virtually from scratch and over the last year and a half improved its functionality. I now submit the result of my efforts for the benefit of the Vim community.
+
+Multi Search enables highlighting (and searching) multiple search terms. Each defined search term's highlight state can be enabled or disabled. Searches can be performed on all the defined terms, all enabled terms, or on specific terms.
+
+On platforms that support it, the Multi Search menu makes it easier to use some of the Multi Search commands. Multi Search also defines mappings for the more commonly used commands.
+
+Although it is marked as requiring Vim 7.2, the Multi Search plugin was developed and tested using Vim 7.1. Please see the installation instructions below. Once installed, detailed help can be obtained by
+
+	:help Msearch
+
+Email bug reports and enhancement requests to the author. Happy Viming!
